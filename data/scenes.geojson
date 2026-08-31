@@ -1,0 +1,5094 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287240433-LAADS",
+        "productId": "VNP02IMG.A2026236.1924.002.2026237015310.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-24T19:24:00Z",
+        "acquiredAtNepal": "2026-08-25T01:09:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.327705,
+              41.425671
+            ],
+            [
+              82.281776,
+              47.302406
+            ],
+            [
+              80.555275,
+              26.379972
+            ],
+            [
+              110.281006,
+              21.76823
+            ],
+            [
+              120.327705,
+              41.425671
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287252427-LAADS",
+        "productId": "VJ102IMG.A2026236.1948.021.2026237022121.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-24T19:48:00Z",
+        "acquiredAtNepal": "2026-08-25T01:33:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.6259,
+              26.97168
+            ],
+            [
+              74.885994,
+              31.71612
+            ],
+            [
+              71.749107,
+              10.820857
+            ],
+            [
+              98.887299,
+              6.605505
+            ],
+            [
+              105.6259,
+              26.97168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287250587-LAADS",
+        "productId": "VJ202IMG.A2026236.2030.021.2026237021951.nc",
+        "platform": "NOAA-21",
+        "mission": "VIIRS",
+        "sensor": "VJ202IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-24T20:30:00Z",
+        "acquiredAtNepal": "2026-08-25T02:15:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.90451,
+              38.695572
+            ],
+            [
+              63.31881,
+              44.096661
+            ],
+            [
+              61.288563,
+              23.250231
+            ],
+            [
+              89.909088,
+              18.871641
+            ],
+            [
+              98.90451,
+              38.695572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287276847-LAADS",
+        "productId": "VNP02IMG.A2026236.2106.002.2026237032744.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-24T21:06:00Z",
+        "acquiredAtNepal": "2026-08-25T02:51:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.814331,
+              39.833481
+            ],
+            [
+              56.808685,
+              45.537201
+            ],
+            [
+              54.964375,
+              24.718187
+            ],
+            [
+              84.31131,
+              20.158646
+            ],
+            [
+              93.814331,
+              39.833481
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287806775-LAADS",
+        "productId": "MYD021KM.A2026236.2155.007.2026237154711.nc",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-24T21:55:00Z",
+        "acquiredAtNepal": "2026-08-25T03:40:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.201583,
+              16.253581
+            ],
+            [
+              97.165152,
+              13.27204
+            ],
+            [
+              102.825238,
+              30.943518
+            ],
+            [
+              78.818626,
+              34.50999
+            ],
+            [
+              76.201583,
+              16.253581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287806877-LAADS",
+        "productId": "MYD021KM.A2026236.2155.061.2026237155035.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-24T21:55:00Z",
+        "acquiredAtNepal": "2026-08-25T03:40:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.201831,
+              16.253648
+            ],
+            [
+              97.165403,
+              13.272071
+            ],
+            [
+              102.825519,
+              30.943531
+            ],
+            [
+              78.818914,
+              34.510039
+            ],
+            [
+              76.201831,
+              16.253648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287161645-LANCEMODIS",
+        "productId": "MYD021KM.A2026236.2155.061.2026236233658.NRT.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-24T21:55:00Z",
+        "acquiredAtNepal": "2026-08-25T03:40:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.201904,
+              16.255998
+            ],
+            [
+              97.166355,
+              13.274242
+            ],
+            [
+              102.826818,
+              30.94557
+            ],
+            [
+              78.818869,
+              34.512239
+            ],
+            [
+              76.201904,
+              16.255998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287476420-LAADS",
+        "productId": "MOD021KM.A2026237.0310.007.2026237084858.nc",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T03:10:00Z",
+        "acquiredAtNepal": "2026-08-25T08:55:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.995571,
+              12.993093
+            ],
+            [
+              93.853551,
+              10.191687
+            ],
+            [
+              98.991798,
+              27.939616
+            ],
+            [
+              75.564032,
+              31.234277
+            ],
+            [
+              72.995571,
+              12.993093
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287740809-LAADS",
+        "productId": "MOD021KM.A2026237.0310.061.2026237131457.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T03:10:00Z",
+        "acquiredAtNepal": "2026-08-25T08:55:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.99572,
+              12.992777
+            ],
+            [
+              93.853656,
+              10.19135
+            ],
+            [
+              98.991901,
+              27.939273
+            ],
+            [
+              75.564193,
+              31.233936
+            ],
+            [
+              72.99572,
+              12.992777
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287305079-LANCEMODIS",
+        "productId": "MOD021KM.A2026237.0310.061.2026237043658.NRT.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T03:10:00Z",
+        "acquiredAtNepal": "2026-08-25T08:55:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.995741,
+              12.992943
+            ],
+            [
+              93.853698,
+              10.191513
+            ],
+            [
+              98.991901,
+              27.939275
+            ],
+            [
+              75.564193,
+              31.233938
+            ],
+            [
+              72.995741,
+              12.992943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287759245-LAADS",
+        "productId": "VNP02IMG.A2026237.0642.002.2026237134847.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T06:42:00Z",
+        "acquiredAtNepal": "2026-08-25T12:27:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.695427,
+              15.273259
+            ],
+            [
+              115.220657,
+              19.61904
+            ],
+            [
+              112.827934,
+              40.439579
+            ],
+            [
+              78.506058,
+              35.23724
+            ],
+            [
+              86.695427,
+              15.273259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287721233-LAADS",
+        "productId": "VJ102IMG.A2026237.0700.021.2026237122742.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T07:00:00Z",
+        "acquiredAtNepal": "2026-08-25T12:45:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.071014,
+              10.20768
+            ],
+            [
+              109.504066,
+              14.370305
+            ],
+            [
+              106.625755,
+              35.281364
+            ],
+            [
+              74.717827,
+              30.450277
+            ],
+            [
+              82.071014,
+              10.20768
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287774181-LAADS",
+        "productId": "VJ202IMG.A2026237.0748.021.2026237143444.nc",
+        "platform": "NOAA-21",
+        "mission": "VIIRS",
+        "sensor": "VJ202IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T07:48:00Z",
+        "acquiredAtNepal": "2026-08-25T13:33:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              66.971672,
+              18.473383
+            ],
+            [
+              95.412369,
+              22.78145
+            ],
+            [
+              93.293327,
+              43.644577
+            ],
+            [
+              57.967739,
+              38.300816
+            ],
+            [
+              66.971672,
+              18.473383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287800429-LAADS",
+        "productId": "VNP02IMG.A2026237.0824.002.2026237153913.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T08:24:00Z",
+        "acquiredAtNepal": "2026-08-25T14:09:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.796471,
+              16.895237
+            ],
+            [
+              89.595764,
+              21.281574
+            ],
+            [
+              87.35894,
+              42.203621
+            ],
+            [
+              52.025009,
+              36.823174
+            ],
+            [
+              60.796471,
+              16.895237
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288848794-LAADS",
+        "productId": "MYD021KM.A2026237.0850.007.2026238204144.nc",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T08:50:00Z",
+        "acquiredAtNepal": "2026-08-25T14:35:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.992196,
+              38.610169
+            ],
+            [
+              81.940127,
+              34.685797
+            ],
+            [
+              88.515283,
+              17.183428
+            ],
+            [
+              109.859081,
+              20.32845
+            ],
+            [
+              106.992196,
+              38.610169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288849058-LAADS",
+        "productId": "MYD021KM.A2026237.0850.061.2026238204910.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T08:50:00Z",
+        "acquiredAtNepal": "2026-08-25T14:35:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.991898,
+              38.610068
+            ],
+            [
+              81.93988,
+              34.68565
+            ],
+            [
+              88.515063,
+              17.183284
+            ],
+            [
+              109.858831,
+              20.328349
+            ],
+            [
+              106.991898,
+              38.610068
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287499512-LANCEMODIS",
+        "productId": "MYD021KM.A2026237.0850.061.2026237094344.NRT.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T08:50:00Z",
+        "acquiredAtNepal": "2026-08-25T14:35:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.991893,
+              38.60926
+            ],
+            [
+              81.94019,
+              34.684891
+            ],
+            [
+              88.515226,
+              17.182515
+            ],
+            [
+              109.858796,
+              20.327557
+            ],
+            [
+              106.991893,
+              38.60926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287929759-LAADS",
+        "productId": "MOD021KM.A2026237.1405.007.2026237204530.nc",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T14:05:00Z",
+        "acquiredAtNepal": "2026-08-25T19:50:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.725699,
+              40.157576
+            ],
+            [
+              78.97545,
+              36.361997
+            ],
+            [
+              85.635543,
+              18.871792
+            ],
+            [
+              107.315115,
+              21.85879
+            ],
+            [
+              104.725699,
+              40.157576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288039991-LAADS",
+        "productId": "MOD021KM.A2026237.1405.061.2026238012921.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T14:05:00Z",
+        "acquiredAtNepal": "2026-08-25T19:50:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.725476,
+              40.157873
+            ],
+            [
+              78.975165,
+              36.362247
+            ],
+            [
+              85.635315,
+              18.872054
+            ],
+            [
+              107.314939,
+              21.859091
+            ],
+            [
+              104.725476,
+              40.157873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4287796181-LANCEMODIS",
+        "productId": "MOD021KM.A2026237.1405.061.2026237153408.NRT.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T14:05:00Z",
+        "acquiredAtNepal": "2026-08-25T19:50:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.725628,
+              40.157271
+            ],
+            [
+              78.975425,
+              36.36168
+            ],
+            [
+              85.635315,
+              18.872052
+            ],
+            [
+              107.314978,
+              21.859092
+            ],
+            [
+              104.725628,
+              40.157271
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288055615-LAADS",
+        "productId": "VNP02IMG.A2026237.1906.002.2026238015250.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T19:06:00Z",
+        "acquiredAtNepal": "2026-08-26T00:51:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              122.920731,
+              38.167831
+            ],
+            [
+              86.917175,
+              43.731533
+            ],
+            [
+              84.855637,
+              22.907377
+            ],
+            [
+              113.841164,
+              18.403021
+            ],
+            [
+              122.920731,
+              38.167831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288009190-LAADS",
+        "productId": "VJ102IMG.A2026237.1924.021.2026238001018.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T19:24:00Z",
+        "acquiredAtNepal": "2026-08-26T01:09:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              119.48555,
+              43.058823
+            ],
+            [
+              80.745399,
+              49.000633
+            ],
+            [
+              79.229706,
+              28.100977
+            ],
+            [
+              109.01606,
+              23.497026
+            ],
+            [
+              119.48555,
+              43.058823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288009188-LAADS",
+        "productId": "VJ102IMG.A2026237.1930.021.2026238001022.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T19:30:00Z",
+        "acquiredAtNepal": "2026-08-26T01:15:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.036583,
+              23.615114
+            ],
+            [
+              79.229797,
+              28.223406
+            ],
+            [
+              75.844696,
+              7.44716
+            ],
+            [
+              102.797752,
+              3.257406
+            ],
+            [
+              109.036583,
+              23.615114
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288079979-LAADS",
+        "productId": "VJ202IMG.A2026237.2012.021.2026238024850.nc",
+        "platform": "NOAA-21",
+        "mission": "VIIRS",
+        "sensor": "VJ202IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T20:12:00Z",
+        "acquiredAtNepal": "2026-08-26T01:57:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.711273,
+              35.40361
+            ],
+            [
+              67.8787,
+              40.542191
+            ],
+            [
+              65.514389,
+              19.693993
+            ],
+            [
+              93.523804,
+              15.405705
+            ],
+            [
+              101.711273,
+              35.40361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288160761-LAADS",
+        "productId": "VNP02IMG.A2026237.2048.002.2026238050023.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T20:48:00Z",
+        "acquiredAtNepal": "2026-08-26T02:33:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.538261,
+              36.65736
+            ],
+            [
+              61.420258,
+              42.065834
+            ],
+            [
+              59.201752,
+              21.139376
+            ],
+            [
+              87.89193,
+              16.681757
+            ],
+            [
+              96.538261,
+              36.65736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288080079-LAADS",
+        "productId": "VJ102IMG.A2026237.2106.021.2026238025017.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T21:06:00Z",
+        "acquiredAtNepal": "2026-08-26T02:51:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.929535,
+              41.464195
+            ],
+            [
+              55.329235,
+              47.228695
+            ],
+            [
+              53.634773,
+              26.427458
+            ],
+            [
+              83.027657,
+              21.882643
+            ],
+            [
+              92.929535,
+              41.464195
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288866212-LAADS",
+        "productId": "MYD021KM.A2026237.2230.061.2026238211021.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T22:30:00Z",
+        "acquiredAtNepal": "2026-08-26T04:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.532962,
+              27.437002
+            ],
+            [
+              91.189964,
+              24.274307
+            ],
+            [
+              98.615143,
+              41.625564
+            ],
+            [
+              70.584065,
+              45.772525
+            ],
+            [
+              68.532962,
+              27.437002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288867152-LAADS",
+        "productId": "MYD021KM.A2026237.2230.007.2026238210633.nc",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T22:30:00Z",
+        "acquiredAtNepal": "2026-08-26T04:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.532692,
+              27.436928
+            ],
+            [
+              91.189681,
+              24.27429
+            ],
+            [
+              98.614803,
+              41.625572
+            ],
+            [
+              70.58372,
+              45.772465
+            ],
+            [
+              68.532692,
+              27.436928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288007626-LANCEMODIS",
+        "productId": "MYD021KM.A2026237.2230.061.2026238001052.NRT.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-25T22:30:00Z",
+        "acquiredAtNepal": "2026-08-26T04:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.533096,
+              27.438944
+            ],
+            [
+              91.190376,
+              24.276235
+            ],
+            [
+              98.615924,
+              41.62744
+            ],
+            [
+              70.584101,
+              45.774484
+            ],
+            [
+              68.533096,
+              27.438944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288289508-LAADS",
+        "productId": "MOD021KM.A2026238.0345.007.2026238084836.nc",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T03:45:00Z",
+        "acquiredAtNepal": "2026-08-26T09:30:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.532682,
+              27.919422
+            ],
+            [
+              88.479587,
+              24.914821
+            ],
+            [
+              95.822234,
+              42.274519
+            ],
+            [
+              67.27524,
+              46.247053
+            ],
+            [
+              65.532682,
+              27.919422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288577473-LAADS",
+        "productId": "MOD021KM.A2026238.0345.061.2026238131912.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T03:45:00Z",
+        "acquiredAtNepal": "2026-08-26T09:30:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.532865,
+              27.919104
+            ],
+            [
+              88.47965,
+              24.914484
+            ],
+            [
+              95.822275,
+              42.274176
+            ],
+            [
+              67.275465,
+              46.246727
+            ],
+            [
+              65.532865,
+              27.919104
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288156803-LANCEMODIS",
+        "productId": "MOD021KM.A2026238.0345.061.2026238050456.NRT.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T03:45:00Z",
+        "acquiredAtNepal": "2026-08-26T09:30:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.532549,
+              27.915493
+            ],
+            [
+              88.478446,
+              24.91101
+            ],
+            [
+              95.822276,
+              42.274177
+            ],
+            [
+              67.275411,
+              46.24673
+            ],
+            [
+              65.532549,
+              27.915493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-LC09_L2SP_141040_20260826_02_T1",
+        "productId": "LC09_L2SP_141040_20260826_02_T1",
+        "platform": "Landsat-9",
+        "mission": "Landsat",
+        "sensor": "oli, tirs",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T04:47:48.916081Z",
+        "acquiredAtNepal": "2026-08-26T10:32:48.916081+05:45",
+        "resolutionMeters": 30,
+        "cloudCoverPercent": 47.54,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.93201163619868,
+              29.909685834744284
+            ],
+            [
+              84.49782985616045,
+              28.183597224865153
+            ],
+            [
+              86.34110886628274,
+              27.81492446631915
+            ],
+            [
+              86.79744276897887,
+              29.543452083075554
+            ],
+            [
+              84.93201163619868,
+              29.909685834744284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-LC09_L2SP_141041_20260826_02_T1",
+        "productId": "LC09_L2SP_141041_20260826_02_T1",
+        "platform": "Landsat-9",
+        "mission": "Landsat",
+        "sensor": "oli, tirs",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T04:48:12.815568Z",
+        "acquiredAtNepal": "2026-08-26T10:33:12.815568+05:45",
+        "resolutionMeters": 30,
+        "cloudCoverPercent": 67.8,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.57409278487256,
+              28.471070509804946
+            ],
+            [
+              84.1457261551932,
+              26.744448640438726
+            ],
+            [
+              85.97208087152532,
+              26.37646736666779
+            ],
+            [
+              86.41568574310273,
+              28.106925225698372
+            ],
+            [
+              84.57409278487256,
+              28.471070509804946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288568878-LAADS",
+        "productId": "VJ102IMG.A2026238.0642.021.2026238125845.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T06:42:00Z",
+        "acquiredAtNepal": "2026-08-26T12:27:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.825783,
+              13.635873
+            ],
+            [
+              113.671669,
+              17.858551
+            ],
+            [
+              111.101707,
+              38.775597
+            ],
+            [
+              77.927994,
+              33.772045
+            ],
+            [
+              85.825783,
+              13.635873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288555612-LAADS",
+        "productId": "VJ202IMG.A2026238.0730.021.2026238124449.nc",
+        "platform": "NOAA-21",
+        "mission": "VIIRS",
+        "sensor": "VJ202IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T07:30:00Z",
+        "acquiredAtNepal": "2026-08-26T13:15:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.501671,
+              21.927132
+            ],
+            [
+              99.581673,
+              26.340994
+            ],
+            [
+              97.889595,
+              47.200809
+            ],
+            [
+              60.573746,
+              41.551125
+            ],
+            [
+              70.501671,
+              21.927132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288691129-LAADS",
+        "productId": "VNP02IMG.A2026238.0806.002.2026238165346.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T08:06:00Z",
+        "acquiredAtNepal": "2026-08-26T13:51:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              64.357254,
+              20.365282
+            ],
+            [
+              93.816933,
+              24.854582
+            ],
+            [
+              91.974838,
+              45.671684
+            ],
+            [
+              54.780907,
+              40.010601
+            ],
+            [
+              64.357254,
+              20.365282
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288617454-LAADS",
+        "productId": "VJ102IMG.A2026238.0824.021.2026238144115.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T08:24:00Z",
+        "acquiredAtNepal": "2026-08-26T14:09:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              59.911552,
+              15.370974
+            ],
+            [
+              88.01532,
+              19.631126
+            ],
+            [
+              85.616516,
+              40.44611
+            ],
+            [
+              51.622463,
+              35.308685
+            ],
+            [
+              59.911552,
+              15.370974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288874112-LAADS",
+        "productId": "MYD021KM.A2026238.0930.061.2026238211339.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T09:30:00Z",
+        "acquiredAtNepal": "2026-08-26T15:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.701725,
+              45.391496
+            ],
+            [
+              69.109292,
+              41.043596
+            ],
+            [
+              76.927059,
+              23.776058
+            ],
+            [
+              99.357015,
+              27.076758
+            ],
+            [
+              96.701725,
+              45.391496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288886427-LAADS",
+        "productId": "MYD021KM.A2026238.0930.007.2026238211648.nc",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T09:30:00Z",
+        "acquiredAtNepal": "2026-08-26T15:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.702039,
+              45.39163
+            ],
+            [
+              69.109553,
+              41.043757
+            ],
+            [
+              76.927273,
+              23.776245
+            ],
+            [
+              99.35727,
+              27.076851
+            ],
+            [
+              96.702039,
+              45.39163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288353070-LANCEMODIS",
+        "productId": "MYD021KM.A2026238.0930.061.2026238102409.NRT.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T09:30:00Z",
+        "acquiredAtNepal": "2026-08-26T15:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.701747,
+              45.391088
+            ],
+            [
+              69.109499,
+              41.043232
+            ],
+            [
+              76.927162,
+              23.775677
+            ],
+            [
+              99.357022,
+              27.076376
+            ],
+            [
+              96.701747,
+              45.391088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288857406-LAADS",
+        "productId": "MOD021KM.A2026238.1445.007.2026238205854.nc",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T14:45:00Z",
+        "acquiredAtNepal": "2026-08-26T20:30:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.591962,
+              43.145275
+            ],
+            [
+              67.74056,
+              39.173363
+            ],
+            [
+              74.929829,
+              21.784737
+            ],
+            [
+              97.073809,
+              24.829437
+            ],
+            [
+              94.591962,
+              43.145275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289034038-LAADS",
+        "productId": "MOD021KM.A2026238.1445.061.2026239013435.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T14:45:00Z",
+        "acquiredAtNepal": "2026-08-26T20:30:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.591699,
+              43.145576
+            ],
+            [
+              67.740226,
+              39.173602
+            ],
+            [
+              74.929567,
+              21.784991
+            ],
+            [
+              97.073606,
+              24.829737
+            ],
+            [
+              94.591699,
+              43.145576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288659431-LANCEMODIS",
+        "productId": "MOD021KM.A2026238.1445.061.2026238160736.NRT.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T14:45:00Z",
+        "acquiredAtNepal": "2026-08-26T20:30:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.591779,
+              43.145108
+            ],
+            [
+              67.740448,
+              39.173166
+            ],
+            [
+              74.929567,
+              21.784989
+            ],
+            [
+              97.073607,
+              24.829735
+            ],
+            [
+              94.591779,
+              43.145108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289017281-LAADS",
+        "productId": "VJ102IMG.A2026238.1906.021.2026239005642.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T19:06:00Z",
+        "acquiredAtNepal": "2026-08-27T00:51:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              122.024529,
+              39.896103
+            ],
+            [
+              85.424744,
+              45.518284
+            ],
+            [
+              83.538216,
+              24.608768
+            ],
+            [
+              112.522125,
+              20.121714
+            ],
+            [
+              122.024529,
+              39.896103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289075153-LAADS",
+        "productId": "VJ202IMG.A2026238.1954.021.2026239024254.nc",
+        "platform": "NOAA-21",
+        "mission": "VIIRS",
+        "sensor": "VJ202IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T19:54:00Z",
+        "acquiredAtNepal": "2026-08-27T01:39:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.804108,
+              32.039898
+            ],
+            [
+              72.444725,
+              36.984158
+            ],
+            [
+              69.693855,
+              16.139643
+            ],
+            [
+              97.221855,
+              11.922441
+            ],
+            [
+              104.804108,
+              32.039898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289133740-LAADS",
+        "productId": "VNP02IMG.A2026238.2030.002.2026239044830.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T20:30:00Z",
+        "acquiredAtNepal": "2026-08-27T02:15:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              99.401649,
+              33.335159
+            ],
+            [
+              65.963165,
+              38.491707
+            ],
+            [
+              63.417213,
+              17.666073
+            ],
+            [
+              91.581261,
+              13.286169
+            ],
+            [
+              99.401649,
+              33.335159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289071747-LAADS",
+        "productId": "VJ102IMG.A2026238.2048.021.2026239023823.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T20:48:00Z",
+        "acquiredAtNepal": "2026-08-27T02:33:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.475174,
+              38.31078
+            ],
+            [
+              59.972546,
+              43.744114
+            ],
+            [
+              57.929649,
+              22.934828
+            ],
+            [
+              86.584816,
+              18.496126
+            ],
+            [
+              95.475174,
+              38.31078
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289619430-LAADS",
+        "productId": "MYD021KM.A2026238.2130.061.2026239151032.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T21:30:00Z",
+        "acquiredAtNepal": "2026-08-27T03:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.44781,
+              25.952408
+            ],
+            [
+              105.817495,
+              22.824724
+            ],
+            [
+              112.950828,
+              40.228371
+            ],
+            [
+              85.582357,
+              44.279783
+            ],
+            [
+              83.44781,
+              25.952408
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289622899-LAADS",
+        "productId": "MYD021KM.A2026238.2130.007.2026239151644.nc",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T21:30:00Z",
+        "acquiredAtNepal": "2026-08-27T03:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.447542,
+              25.952333
+            ],
+            [
+              105.817222,
+              22.824701
+            ],
+            [
+              112.950502,
+              40.228372
+            ],
+            [
+              85.582019,
+              44.279722
+            ],
+            [
+              83.447542,
+              25.952333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4288957462-LANCEMODIS",
+        "productId": "MYD021KM.A2026238.2130.061.2026238231836.NRT.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-26T21:30:00Z",
+        "acquiredAtNepal": "2026-08-27T03:15:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.447844,
+              25.953009
+            ],
+            [
+              105.817447,
+              22.825368
+            ],
+            [
+              112.950884,
+              40.229029
+            ],
+            [
+              85.582364,
+              44.28042
+            ],
+            [
+              83.447844,
+              25.953009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289294105-LAADS",
+        "productId": "MOD021KM.A2026239.0250.007.2026239092851.nc",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T02:50:00Z",
+        "acquiredAtNepal": "2026-08-27T08:35:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.863149,
+              12.081452
+            ],
+            [
+              98.641284,
+              9.273329
+            ],
+            [
+              103.686393,
+              27.036444
+            ],
+            [
+              80.476269,
+              30.292454
+            ],
+            [
+              77.863149,
+              12.081452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289541631-LAADS",
+        "productId": "MOD021KM.A2026239.0250.061.2026239130940.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T02:50:00Z",
+        "acquiredAtNepal": "2026-08-27T08:35:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.863206,
+              12.081121
+            ],
+            [
+              98.641222,
+              9.273018
+            ],
+            [
+              103.686315,
+              27.03614
+            ],
+            [
+              80.476332,
+              30.292147
+            ],
+            [
+              77.863206,
+              12.081121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289112467-LANCEMODIS",
+        "productId": "MOD021KM.A2026239.0250.061.2026239040957.NRT.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T02:50:00Z",
+        "acquiredAtNepal": "2026-08-27T08:35:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.863278,
+              12.082538
+            ],
+            [
+              98.641581,
+              9.2744
+            ],
+            [
+              103.686316,
+              27.036141
+            ],
+            [
+              80.476207,
+              30.292155
+            ],
+            [
+              77.863278,
+              12.082538
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cems-f2ec2eee-9b3d-40c3-91d5-4a898ed8eb08",
+        "productId": "EMSR927_AOI03_GRA_PRODUCT_SATELLOGIC_20260827_0422_ORTHO.tif",
+        "platform": "Satellogic",
+        "mission": "Restricted/commercial EMS source",
+        "sensor": "Satellogic",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:22:00Z",
+        "acquiredAtNepal": "2026-08-27T10:07:00+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": null,
+        "source": "Copernicus EMSR927 product metadata",
+        "license": "restricted",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.180097,
+              27.994084
+            ],
+            [
+              85.178193,
+              27.987943
+            ],
+            [
+              85.177614,
+              27.981898
+            ],
+            [
+              85.178373,
+              27.979911
+            ],
+            [
+              85.179851,
+              27.976139
+            ],
+            [
+              85.17944,
+              27.97346
+            ],
+            [
+              85.178462,
+              27.971908
+            ],
+            [
+              85.174966,
+              27.97004
+            ],
+            [
+              85.170154,
+              27.968154
+            ],
+            [
+              85.16647,
+              27.964422
+            ],
+            [
+              85.164262,
+              27.959873
+            ],
+            [
+              85.160272,
+              27.957631
+            ],
+            [
+              85.160018,
+              27.955579
+            ],
+            [
+              85.158353,
+              27.950059
+            ],
+            [
+              85.154282,
+              27.943233
+            ],
+            [
+              85.147119,
+              27.937559
+            ],
+            [
+              85.144583,
+              27.929583
+            ],
+            [
+              85.142083,
+              27.927917
+            ],
+            [
+              85.138824,
+              27.92375
+            ],
+            [
+              85.13403,
+              27.923658
+            ],
+            [
+              85.133362,
+              27.921769
+            ],
+            [
+              85.132626,
+              27.915408
+            ],
+            [
+              85.132595,
+              27.913962
+            ],
+            [
+              85.1337,
+              27.911835
+            ],
+            [
+              85.133886,
+              27.910049
+            ],
+            [
+              85.132337,
+              27.904989
+            ],
+            [
+              85.134102,
+              27.89921
+            ],
+            [
+              85.134186,
+              27.893712
+            ],
+            [
+              85.133419,
+              27.891739
+            ],
+            [
+              85.128938,
+              27.887697
+            ],
+            [
+              85.127067,
+              27.886632
+            ],
+            [
+              85.121278,
+              27.8823
+            ],
+            [
+              85.117955,
+              27.877555
+            ],
+            [
+              85.110842,
+              27.873531
+            ],
+            [
+              85.106257,
+              27.86926
+            ],
+            [
+              85.09925,
+              27.85939
+            ],
+            [
+              85.101888,
+              27.856983
+            ],
+            [
+              85.108995,
+              27.856741
+            ],
+            [
+              85.11723,
+              27.861876
+            ],
+            [
+              85.121291,
+              27.865529
+            ],
+            [
+              85.140222,
+              27.879587
+            ],
+            [
+              85.144837,
+              27.883781
+            ],
+            [
+              85.148682,
+              27.889024
+            ],
+            [
+              85.150709,
+              27.896994
+            ],
+            [
+              85.150779,
+              27.902028
+            ],
+            [
+              85.148542,
+              27.907271
+            ],
+            [
+              85.145326,
+              27.911675
+            ],
+            [
+              85.14375,
+              27.915417
+            ],
+            [
+              85.144327,
+              27.916379
+            ],
+            [
+              85.146965,
+              27.919002
+            ],
+            [
+              85.149079,
+              27.919528
+            ],
+            [
+              85.151983,
+              27.920724
+            ],
+            [
+              85.153421,
+              27.922149
+            ],
+            [
+              85.154392,
+              27.925169
+            ],
+            [
+              85.154348,
+              27.928923
+            ],
+            [
+              85.157463,
+              27.930726
+            ],
+            [
+              85.158421,
+              27.932091
+            ],
+            [
+              85.160397,
+              27.936632
+            ],
+            [
+              85.165317,
+              27.944364
+            ],
+            [
+              85.16678,
+              27.948581
+            ],
+            [
+              85.167143,
+              27.951199
+            ],
+            [
+              85.166818,
+              27.953725
+            ],
+            [
+              85.172712,
+              27.960288
+            ],
+            [
+              85.175048,
+              27.961956
+            ],
+            [
+              85.177395,
+              27.963001
+            ],
+            [
+              85.187124,
+              27.969702
+            ],
+            [
+              85.191074,
+              27.97311
+            ],
+            [
+              85.192771,
+              27.974453
+            ],
+            [
+              85.192867,
+              27.975494
+            ],
+            [
+              85.192361,
+              27.97636
+            ],
+            [
+              85.18977,
+              27.977568
+            ],
+            [
+              85.188297,
+              27.977515
+            ],
+            [
+              85.185955,
+              27.976331
+            ],
+            [
+              85.184804,
+              27.975914
+            ],
+            [
+              85.182612,
+              27.982858
+            ],
+            [
+              85.184195,
+              27.989093
+            ],
+            [
+              85.187346,
+              27.995965
+            ],
+            [
+              85.187469,
+              27.998737
+            ],
+            [
+              85.18711,
+              28.003619
+            ],
+            [
+              85.1859,
+              28.009015
+            ],
+            [
+              85.181188,
+              28.009103
+            ],
+            [
+              85.181922,
+              28.006476
+            ],
+            [
+              85.182008,
+              27.996346
+            ],
+            [
+              85.180097,
+              27.994084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cems-afb5dc51-6ce6-4d27-8470-acdcd991c4f9",
+        "productId": "EMSR927_AOI03_GRAMONIT01_PERUSAT1_20260827_0447_ORTHO.tif",
+        "platform": "PeruSAT-1",
+        "mission": "Restricted/commercial EMS source",
+        "sensor": "PeruSAT-1",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:47:00Z",
+        "acquiredAtNepal": "2026-08-27T10:32:00+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": null,
+        "source": "Copernicus EMSR927 product metadata",
+        "license": "restricted",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.178017,
+              27.980844
+            ],
+            [
+              85.172755,
+              27.981425
+            ],
+            [
+              85.172487,
+              27.982253
+            ],
+            [
+              85.174225,
+              27.984247
+            ],
+            [
+              85.177865,
+              27.984521
+            ],
+            [
+              85.178193,
+              27.987943
+            ],
+            [
+              85.180097,
+              27.994084
+            ],
+            [
+              85.182008,
+              27.996346
+            ],
+            [
+              85.181922,
+              28.006476
+            ],
+            [
+              85.181188,
+              28.009103
+            ],
+            [
+              85.1859,
+              28.009015
+            ],
+            [
+              85.18711,
+              28.003619
+            ],
+            [
+              85.187469,
+              27.998737
+            ],
+            [
+              85.187346,
+              27.995965
+            ],
+            [
+              85.184195,
+              27.989093
+            ],
+            [
+              85.182612,
+              27.982858
+            ],
+            [
+              85.184804,
+              27.975914
+            ],
+            [
+              85.185955,
+              27.976331
+            ],
+            [
+              85.188297,
+              27.977515
+            ],
+            [
+              85.18977,
+              27.977568
+            ],
+            [
+              85.192361,
+              27.97636
+            ],
+            [
+              85.192867,
+              27.975494
+            ],
+            [
+              85.192771,
+              27.974453
+            ],
+            [
+              85.191074,
+              27.97311
+            ],
+            [
+              85.187124,
+              27.969702
+            ],
+            [
+              85.177395,
+              27.963001
+            ],
+            [
+              85.175048,
+              27.961956
+            ],
+            [
+              85.172712,
+              27.960288
+            ],
+            [
+              85.166818,
+              27.953725
+            ],
+            [
+              85.167143,
+              27.951199
+            ],
+            [
+              85.16678,
+              27.948581
+            ],
+            [
+              85.165317,
+              27.944364
+            ],
+            [
+              85.160397,
+              27.936632
+            ],
+            [
+              85.158421,
+              27.932091
+            ],
+            [
+              85.157463,
+              27.930726
+            ],
+            [
+              85.154348,
+              27.928923
+            ],
+            [
+              85.154392,
+              27.925169
+            ],
+            [
+              85.153421,
+              27.922149
+            ],
+            [
+              85.151983,
+              27.920724
+            ],
+            [
+              85.149079,
+              27.919528
+            ],
+            [
+              85.146965,
+              27.919002
+            ],
+            [
+              85.144327,
+              27.916379
+            ],
+            [
+              85.14375,
+              27.915417
+            ],
+            [
+              85.145326,
+              27.911675
+            ],
+            [
+              85.148542,
+              27.907271
+            ],
+            [
+              85.150779,
+              27.902028
+            ],
+            [
+              85.150709,
+              27.896994
+            ],
+            [
+              85.148682,
+              27.889024
+            ],
+            [
+              85.144837,
+              27.883781
+            ],
+            [
+              85.140222,
+              27.879587
+            ],
+            [
+              85.121291,
+              27.865529
+            ],
+            [
+              85.11723,
+              27.861876
+            ],
+            [
+              85.108995,
+              27.856741
+            ],
+            [
+              85.101888,
+              27.856983
+            ],
+            [
+              85.09925,
+              27.85939
+            ],
+            [
+              85.106257,
+              27.86926
+            ],
+            [
+              85.110842,
+              27.873531
+            ],
+            [
+              85.117955,
+              27.877555
+            ],
+            [
+              85.121278,
+              27.8823
+            ],
+            [
+              85.127067,
+              27.886632
+            ],
+            [
+              85.128938,
+              27.887697
+            ],
+            [
+              85.133419,
+              27.891739
+            ],
+            [
+              85.134186,
+              27.893712
+            ],
+            [
+              85.134102,
+              27.89921
+            ],
+            [
+              85.132337,
+              27.904989
+            ],
+            [
+              85.133886,
+              27.910049
+            ],
+            [
+              85.1337,
+              27.911835
+            ],
+            [
+              85.132595,
+              27.913962
+            ],
+            [
+              85.132626,
+              27.915408
+            ],
+            [
+              85.133362,
+              27.921769
+            ],
+            [
+              85.13403,
+              27.923658
+            ],
+            [
+              85.138824,
+              27.92375
+            ],
+            [
+              85.142083,
+              27.927917
+            ],
+            [
+              85.144583,
+              27.929583
+            ],
+            [
+              85.147119,
+              27.937559
+            ],
+            [
+              85.154282,
+              27.943233
+            ],
+            [
+              85.158353,
+              27.950059
+            ],
+            [
+              85.160018,
+              27.955579
+            ],
+            [
+              85.160272,
+              27.957631
+            ],
+            [
+              85.164262,
+              27.959873
+            ],
+            [
+              85.16647,
+              27.964422
+            ],
+            [
+              85.170154,
+              27.968154
+            ],
+            [
+              85.174966,
+              27.97004
+            ],
+            [
+              85.178462,
+              27.971908
+            ],
+            [
+              85.17944,
+              27.97346
+            ],
+            [
+              85.179851,
+              27.976139
+            ],
+            [
+              85.178373,
+              27.979911
+            ],
+            [
+              85.178017,
+              27.980844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL1C_20260827T045659_N0512_R119_T45RUM_20260827T083139",
+        "productId": "S2B_MSIL1C_20260827T045659_N0512_R119_T45RUM_20260827T083139",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 65.63,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.85421690035541,
+              27.931644199308657
+            ],
+            [
+              86.07460921979444,
+              28.925102586142142
+            ],
+            [
+              84.94856806237453,
+              28.912653887310096
+            ],
+            [
+              84.96757810552187,
+              27.922149087331906
+            ],
+            [
+              85.85421690035541,
+              27.931644199308657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL1C_20260827T045659_N0512_R119_T45RUL_20260827T083139",
+        "productId": "S2B_MSIL1C_20260827T045659_N0512_R119_T45RUL_20260827T083139",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 40.32,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.87659957738256,
+              28.020161411950266
+            ],
+            [
+              84.96592364373934,
+              28.01038067774639
+            ],
+            [
+              84.98407353867857,
+              27.019735585570864
+            ],
+            [
+              85.61166133848933,
+              27.0262567412524
+            ],
+            [
+              85.87659957738256,
+              28.020161411950266
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL1C_20260827T045659_N0512_R119_T45RTM_20260827T083139",
+        "productId": "S2B_MSIL1C_20260827T045659_N0512_R119_T45RTM_20260827T083139",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 76.27,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.92366383707036,
+              28.893134383068205
+            ],
+            [
+              83.95214137520378,
+              27.903415687218992
+            ],
+            [
+              85.06691621561555,
+              27.923579527791233
+            ],
+            [
+              85.04883385369031,
+              28.914144364569694
+            ],
+            [
+              83.92366383707036,
+              28.893134383068205
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL1C_20260827T045659_N0512_R119_T45RTL_20260827T083139",
+        "productId": "S2B_MSIL1C_20260827T045659_N0512_R119_T45RTL_20260827T083139",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 70.67,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.94966291515031,
+              27.991577831689415
+            ],
+            [
+              83.9768526405984,
+              27.001706217086564
+            ],
+            [
+              85.08260664643534,
+              27.02111225850134
+            ],
+            [
+              85.06534249241301,
+              28.011816421914702
+            ],
+            [
+              83.94966291515031,
+              27.991577831689415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL2A_20260827T045659_N0512_R119_T45RUM_20260827T084453",
+        "productId": "S2B_MSIL2A_20260827T045659_N0512_R119_T45RUM_20260827T084453",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 78.47,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.85421690035541,
+              27.931644199308657
+            ],
+            [
+              86.07460921979444,
+              28.925102586142142
+            ],
+            [
+              84.94856806237453,
+              28.912653887310096
+            ],
+            [
+              84.96757810552187,
+              27.922149087331906
+            ],
+            [
+              85.85421690035541,
+              27.931644199308657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL2A_20260827T045659_N0512_R119_T45RUL_20260827T084453",
+        "productId": "S2B_MSIL2A_20260827T045659_N0512_R119_T45RUL_20260827T084453",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 54.29,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.87659957738256,
+              28.020161411950266
+            ],
+            [
+              84.96592364373934,
+              28.01038067774639
+            ],
+            [
+              84.98407353867857,
+              27.019735585570864
+            ],
+            [
+              85.61166133848933,
+              27.0262567412524
+            ],
+            [
+              85.87659957738256,
+              28.020161411950266
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL2A_20260827T045659_N0512_R119_T45RTM_20260827T084453",
+        "productId": "S2B_MSIL2A_20260827T045659_N0512_R119_T45RTM_20260827T084453",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 85.92,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.92366383707036,
+              28.893134383068205
+            ],
+            [
+              83.95214137520378,
+              27.903415687218992
+            ],
+            [
+              85.06691621561555,
+              27.923579527791233
+            ],
+            [
+              85.04883385369031,
+              28.914144364569694
+            ],
+            [
+              83.92366383707036,
+              28.893134383068205
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "copernicus-data-space-S2B_MSIL2A_20260827T045659_N0512_R119_T45RTL_20260827T084453",
+        "productId": "S2B_MSIL2A_20260827T045659_N0512_R119_T45RTL_20260827T084453",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T04:56:59.024000Z",
+        "acquiredAtNepal": "2026-08-27T10:41:59.024000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 84.98,
+        "source": "Copernicus Data Space",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.94966291515031,
+              27.991577831689415
+            ],
+            [
+              83.9768526405984,
+              27.001706217086564
+            ],
+            [
+              85.08260664643534,
+              27.02111225850134
+            ],
+            [
+              85.06534249241301,
+              28.011816421914702
+            ],
+            [
+              83.94966291515031,
+              27.991577831689415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cems-bca0dae5-6675-40ed-be38-4baedd2e6df2",
+        "productId": "EMSR927_AOI01_GRA_PRODUCT_WORLDVIEW3_20260827_0505_ORTHO.tif",
+        "platform": "WorldView-3",
+        "mission": "Restricted/commercial EMS source",
+        "sensor": "WorldView-3",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:05:00Z",
+        "acquiredAtNepal": "2026-08-27T10:50:00+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": null,
+        "source": "Copernicus EMSR927 product metadata",
+        "license": "restricted",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.325719,
+              28.149117
+            ],
+            [
+              85.335013,
+              28.155409
+            ],
+            [
+              85.341309,
+              28.160643
+            ],
+            [
+              85.345267,
+              28.16392
+            ],
+            [
+              85.347906,
+              28.172855
+            ],
+            [
+              85.347488,
+              28.182371
+            ],
+            [
+              85.347488,
+              28.182583
+            ],
+            [
+              85.347488,
+              28.182742
+            ],
+            [
+              85.348268,
+              28.187659
+            ],
+            [
+              85.345149,
+              28.188188
+            ],
+            [
+              85.34203,
+              28.185333
+            ],
+            [
+              85.34191,
+              28.185015
+            ],
+            [
+              85.334713,
+              28.163762
+            ],
+            [
+              85.3232,
+              28.152077
+            ],
+            [
+              85.325719,
+              28.149117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cems-dc6f950c-5e6e-4369-a670-1979e2016b4d",
+        "productId": "EMSR927_AOI02_GRA_PRODUCT_LEGION_20260827_0505_ORTHO.tif",
+        "platform": "Legion",
+        "mission": "Restricted/commercial EMS source",
+        "sensor": "Legion",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:05:00Z",
+        "acquiredAtNepal": "2026-08-27T10:50:00+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": null,
+        "source": "Copernicus EMSR927 product metadata",
+        "license": "restricted",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.379716,
+              28.270867
+            ],
+            [
+              85.378301,
+              28.266152
+            ],
+            [
+              85.374258,
+              28.260824
+            ],
+            [
+              85.369497,
+              28.256273
+            ],
+            [
+              85.367946,
+              28.252208
+            ],
+            [
+              85.366716,
+              28.248731
+            ],
+            [
+              85.36438,
+              28.244793
+            ],
+            [
+              85.361182,
+              28.243007
+            ],
+            [
+              85.359394,
+              28.242372
+            ],
+            [
+              85.357083,
+              28.243451
+            ],
+            [
+              85.366921,
+              28.263924
+            ],
+            [
+              85.375277,
+              28.278948
+            ],
+            [
+              85.376477,
+              28.279944
+            ],
+            [
+              85.376991,
+              28.278846
+            ],
+            [
+              85.37687,
+              28.278346
+            ],
+            [
+              85.376962,
+              28.277926
+            ],
+            [
+              85.377969,
+              28.278415
+            ],
+            [
+              85.379021,
+              28.27911
+            ],
+            [
+              85.379669,
+              28.27832
+            ],
+            [
+              85.380578,
+              28.27831
+            ],
+            [
+              85.380579,
+              28.27831
+            ],
+            [
+              85.379703,
+              28.274343
+            ],
+            [
+              85.379716,
+              28.270867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RUM_20260827_0_L2A",
+        "productId": "S2B_45RUM_20260827_0_L2A",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:10:45.885000Z",
+        "acquiredAtNepal": "2026-08-27T10:55:45.885000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 78.471315,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.9485784916518,
+              28.912645022883027
+            ],
+            [
+              84.96757121478453,
+              27.923060429324586
+            ],
+            [
+              85.85247799005901,
+              27.933368735853016
+            ],
+            [
+              86.0749644565251,
+              28.744758823558907
+            ],
+            [
+              86.07357320952792,
+              28.925086435698606
+            ],
+            [
+              84.9485784916518,
+              28.912645022883027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RUM_20260827_0_L1C",
+        "productId": "S2B_45RUM_20260827_0_L1C",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:10:45.885000Z",
+        "acquiredAtNepal": "2026-08-27T10:55:45.885000+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": 65.6252195161317,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.9485784916518,
+              28.912645022883027
+            ],
+            [
+              84.96757121478453,
+              27.923060429324586
+            ],
+            [
+              85.85247799005901,
+              27.933368735853016
+            ],
+            [
+              86.0749644565251,
+              28.744758823558907
+            ],
+            [
+              86.07357320952792,
+              28.925086435698606
+            ],
+            [
+              84.9485784916518,
+              28.912645022883027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RTM_20260827_0_L2A",
+        "productId": "S2B_45RTM_20260827_0_L2A",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:10:50.083000Z",
+        "acquiredAtNepal": "2026-08-27T10:55:50.083000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 85.923547,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.92367434461187,
+              28.893125603705347
+            ],
+            [
+              83.95215126949762,
+              27.903424926097003
+            ],
+            [
+              85.06690589742914,
+              27.92358840707561
+            ],
+            [
+              85.04882377006004,
+              28.9141351947902
+            ],
+            [
+              83.92367434461187,
+              28.893125603705347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RTM_20260827_0_L1C",
+        "productId": "S2B_45RTM_20260827_0_L1C",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:10:50.083000Z",
+        "acquiredAtNepal": "2026-08-27T10:55:50.083000+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": 76.2749260951357,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.92367434461187,
+              28.893125603705347
+            ],
+            [
+              83.95215126949762,
+              27.903424926097003
+            ],
+            [
+              85.06690589742914,
+              27.92358840707561
+            ],
+            [
+              85.04882377006004,
+              28.9141351947902
+            ],
+            [
+              83.92367434461187,
+              28.893125603705347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RUL_20260827_0_L2A",
+        "productId": "S2B_45RUL_20260827_0_L2A",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:11:00.380000Z",
+        "acquiredAtNepal": "2026-08-27T10:56:00.380000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 54.286689,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.96593397844254,
+              28.01037180629726
+            ],
+            [
+              84.98406734159863,
+              27.020647051219555
+            ],
+            [
+              85.60846881228684,
+              27.028384836291785
+            ],
+            [
+              85.8726785050842,
+              28.020802411006756
+            ],
+            [
+              84.96593397844254,
+              28.01037180629726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RUL_20260827_0_L1C",
+        "productId": "S2B_45RUL_20260827_0_L1C",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:11:00.380000Z",
+        "acquiredAtNepal": "2026-08-27T10:56:00.380000+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": 40.3242683475523,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.96593397844254,
+              28.01037180629726
+            ],
+            [
+              84.98406734159863,
+              27.020647051219555
+            ],
+            [
+              85.60846881228684,
+              27.028384836291785
+            ],
+            [
+              85.8726785050842,
+              28.020802411006756
+            ],
+            [
+              84.96593397844254,
+              28.01037180629726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RTL_20260827_0_L2A",
+        "productId": "S2B_45RTL_20260827_0_L2A",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:11:04.409000Z",
+        "acquiredAtNepal": "2026-08-27T10:56:04.409000+05:45",
+        "resolutionMeters": 10,
+        "cloudCoverPercent": 84.982914,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.94967332450597,
+              27.991569042330646
+            ],
+            [
+              83.97686246443169,
+              27.00171544890541
+            ],
+            [
+              85.08259641788084,
+              27.021121144407214
+            ],
+            [
+              85.06533248779681,
+              28.01180725631504
+            ],
+            [
+              83.94967332450597,
+              27.991569042330646
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "element84-earth-search-S2B_45RTL_20260827_0_L1C",
+        "productId": "S2B_45RTL_20260827_0_L1C",
+        "platform": "Sentinel-2B",
+        "mission": "Sentinel-2",
+        "sensor": "msi",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T05:11:04.409000Z",
+        "acquiredAtNepal": "2026-08-27T10:56:04.409000+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": 70.6722207291947,
+        "source": "Element84 Earth Search",
+        "license": "open",
+        "displayMode": "full"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.94967332450597,
+              27.991569042330646
+            ],
+            [
+              83.97686246443169,
+              27.00171544890541
+            ],
+            [
+              85.08259641788084,
+              27.021121144407214
+            ],
+            [
+              85.06533248779681,
+              28.01180725631504
+            ],
+            [
+              83.94967332450597,
+              27.991569042330646
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289528174-LAADS",
+        "productId": "VJ102IMG.A2026239.0624.021.2026239123945.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T06:24:00Z",
+        "acquiredAtNepal": "2026-08-27T12:09:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.500343,
+              17.048286
+            ],
+            [
+              117.878914,
+              21.349792
+            ],
+            [
+              115.629105,
+              42.164989
+            ],
+            [
+              80.857613,
+              36.911953
+            ],
+            [
+              89.500343,
+              17.048286
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289518050-LAADS",
+        "productId": "VJ202IMG.A2026239.0706.021.2026239121656.nc",
+        "platform": "NOAA-21",
+        "mission": "VIIRS",
+        "sensor": "VJ202IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T07:06:00Z",
+        "acquiredAtNepal": "2026-08-27T12:51:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.391029,
+              5.115327
+            ],
+            [
+              107.223885,
+              9.185655
+            ],
+            [
+              103.983192,
+              30.027973
+            ],
+            [
+              73.912033,
+              25.476898
+            ],
+            [
+              80.391029,
+              5.115327
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289518052-LAADS",
+        "productId": "VJ202IMG.A2026239.0712.021.2026239121652.nc",
+        "platform": "NOAA-21",
+        "mission": "VIIRS",
+        "sensor": "VJ202IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T07:12:00Z",
+        "acquiredAtNepal": "2026-08-27T12:57:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.938774,
+              25.361933
+            ],
+            [
+              103.984795,
+              29.908346
+            ],
+            [
+              102.681549,
+              50.750191
+            ],
+            [
+              62.915264,
+              44.740841
+            ],
+            [
+              73.938774,
+              25.361933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289666898-LAADS",
+        "productId": "VNP02IMG.A2026239.0748.002.2026239160420.nc",
+        "platform": "Suomi-NPP",
+        "mission": "VIIRS",
+        "sensor": "VNP02IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T07:48:00Z",
+        "acquiredAtNepal": "2026-08-27T13:33:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              67.859795,
+              23.719597
+            ],
+            [
+              98.028564,
+              28.32744
+            ],
+            [
+              96.6623,
+              49.138561
+            ],
+            [
+              57.291069,
+              43.142971
+            ],
+            [
+              67.859795,
+              23.719597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289587164-LAADS",
+        "productId": "VJ102IMG.A2026239.0806.021.2026239142119.nc",
+        "platform": "NOAA-20",
+        "mission": "VIIRS",
+        "sensor": "VJ102IMG",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T08:06:00Z",
+        "acquiredAtNepal": "2026-08-27T13:51:00+05:45",
+        "resolutionMeters": 250,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              63.575989,
+              18.674871
+            ],
+            [
+              92.257713,
+              23.020983
+            ],
+            [
+              90.174774,
+              43.937069
+            ],
+            [
+              54.43996,
+              38.533546
+            ],
+            [
+              63.575989,
+              18.674871
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4290668678-LAADS",
+        "productId": "MYD021KM.A2026239.1005.061.2026240153103.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T10:05:00Z",
+        "acquiredAtNepal": "2026-08-27T15:50:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.513199,
+              34.063135
+            ],
+            [
+              64.855443,
+              30.370905
+            ],
+            [
+              70.78171,
+              12.74124
+            ],
+            [
+              91.526417,
+              15.808252
+            ],
+            [
+              88.513199,
+              34.063135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4290672426-LAADS",
+        "productId": "MYD021KM.A2026239.1005.007.2026240153249.nc",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T10:05:00Z",
+        "acquiredAtNepal": "2026-08-27T15:50:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.5135,
+              34.063244
+            ],
+            [
+              64.855686,
+              30.371051
+            ],
+            [
+              70.781929,
+              12.741384
+            ],
+            [
+              91.526677,
+              15.808362
+            ],
+            [
+              88.5135,
+              34.063244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289513063-LANCEMODIS",
+        "productId": "MYD021KM.A2026239.1005.061.2026239121717.NRT.hdf",
+        "platform": "Aqua",
+        "mission": "MODIS",
+        "sensor": "MYD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T10:05:00Z",
+        "acquiredAtNepal": "2026-08-27T15:50:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.513214,
+              34.062694
+            ],
+            [
+              64.855653,
+              30.370504
+            ],
+            [
+              70.781827,
+              12.740814
+            ],
+            [
+              91.526388,
+              15.807806
+            ],
+            [
+              88.513214,
+              34.062694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cems-687d7f27-8b48-4f0e-be03-17619812228f",
+        "productId": "EMSR927_AOI03_GRA_PRODUCT_BLACKSKY_20260827_1209_ORTHO.tif",
+        "platform": "BlackSky",
+        "mission": "Restricted/commercial EMS source",
+        "sensor": "BlackSky",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T12:09:00Z",
+        "acquiredAtNepal": "2026-08-27T17:54:00+05:45",
+        "resolutionMeters": null,
+        "cloudCoverPercent": null,
+        "source": "Copernicus EMSR927 product metadata",
+        "license": "restricted",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.180097,
+              27.994084
+            ],
+            [
+              85.178193,
+              27.987943
+            ],
+            [
+              85.177614,
+              27.981898
+            ],
+            [
+              85.178373,
+              27.979911
+            ],
+            [
+              85.179851,
+              27.976139
+            ],
+            [
+              85.17944,
+              27.97346
+            ],
+            [
+              85.178462,
+              27.971908
+            ],
+            [
+              85.174966,
+              27.97004
+            ],
+            [
+              85.170154,
+              27.968154
+            ],
+            [
+              85.16647,
+              27.964422
+            ],
+            [
+              85.164262,
+              27.959873
+            ],
+            [
+              85.160272,
+              27.957631
+            ],
+            [
+              85.160018,
+              27.955579
+            ],
+            [
+              85.158353,
+              27.950059
+            ],
+            [
+              85.154282,
+              27.943233
+            ],
+            [
+              85.147119,
+              27.937559
+            ],
+            [
+              85.144583,
+              27.929583
+            ],
+            [
+              85.142083,
+              27.927917
+            ],
+            [
+              85.138824,
+              27.92375
+            ],
+            [
+              85.13403,
+              27.923658
+            ],
+            [
+              85.133362,
+              27.921769
+            ],
+            [
+              85.132626,
+              27.915408
+            ],
+            [
+              85.132595,
+              27.913962
+            ],
+            [
+              85.1337,
+              27.911835
+            ],
+            [
+              85.133886,
+              27.910049
+            ],
+            [
+              85.132337,
+              27.904989
+            ],
+            [
+              85.134102,
+              27.89921
+            ],
+            [
+              85.134186,
+              27.893712
+            ],
+            [
+              85.133419,
+              27.891739
+            ],
+            [
+              85.128938,
+              27.887697
+            ],
+            [
+              85.127067,
+              27.886632
+            ],
+            [
+              85.121278,
+              27.8823
+            ],
+            [
+              85.117955,
+              27.877555
+            ],
+            [
+              85.110842,
+              27.873531
+            ],
+            [
+              85.106257,
+              27.86926
+            ],
+            [
+              85.09925,
+              27.85939
+            ],
+            [
+              85.101888,
+              27.856983
+            ],
+            [
+              85.108995,
+              27.856741
+            ],
+            [
+              85.11723,
+              27.861876
+            ],
+            [
+              85.121291,
+              27.865529
+            ],
+            [
+              85.140222,
+              27.879587
+            ],
+            [
+              85.144837,
+              27.883781
+            ],
+            [
+              85.148682,
+              27.889024
+            ],
+            [
+              85.150709,
+              27.896994
+            ],
+            [
+              85.150779,
+              27.902028
+            ],
+            [
+              85.148542,
+              27.907271
+            ],
+            [
+              85.145326,
+              27.911675
+            ],
+            [
+              85.14375,
+              27.915417
+            ],
+            [
+              85.144327,
+              27.916379
+            ],
+            [
+              85.146965,
+              27.919002
+            ],
+            [
+              85.149079,
+              27.919528
+            ],
+            [
+              85.151983,
+              27.920724
+            ],
+            [
+              85.153421,
+              27.922149
+            ],
+            [
+              85.154392,
+              27.925169
+            ],
+            [
+              85.154348,
+              27.928923
+            ],
+            [
+              85.157463,
+              27.930726
+            ],
+            [
+              85.158421,
+              27.932091
+            ],
+            [
+              85.160397,
+              27.936632
+            ],
+            [
+              85.165317,
+              27.944364
+            ],
+            [
+              85.16678,
+              27.948581
+            ],
+            [
+              85.167143,
+              27.951199
+            ],
+            [
+              85.166818,
+              27.953725
+            ],
+            [
+              85.172712,
+              27.960288
+            ],
+            [
+              85.175048,
+              27.961956
+            ],
+            [
+              85.177395,
+              27.963001
+            ],
+            [
+              85.187124,
+              27.969702
+            ],
+            [
+              85.191074,
+              27.97311
+            ],
+            [
+              85.192771,
+              27.974453
+            ],
+            [
+              85.192867,
+              27.975494
+            ],
+            [
+              85.192361,
+              27.97636
+            ],
+            [
+              85.18977,
+              27.977568
+            ],
+            [
+              85.188297,
+              27.977515
+            ],
+            [
+              85.185955,
+              27.976331
+            ],
+            [
+              85.184804,
+              27.975914
+            ],
+            [
+              85.182612,
+              27.982858
+            ],
+            [
+              85.184195,
+              27.989093
+            ],
+            [
+              85.187346,
+              27.995965
+            ],
+            [
+              85.187469,
+              27.998737
+            ],
+            [
+              85.18711,
+              28.003619
+            ],
+            [
+              85.1859,
+              28.009015
+            ],
+            [
+              85.181188,
+              28.009103
+            ],
+            [
+              85.181922,
+              28.006476
+            ],
+            [
+              85.182008,
+              27.996346
+            ],
+            [
+              85.180097,
+              27.994084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289858692-LAADS",
+        "productId": "MOD021KM.A2026239.1520.007.2026239214413.nc",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T15:20:00Z",
+        "acquiredAtNepal": "2026-08-27T21:05:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.567157,
+              28.009005
+            ],
+            [
+              64.059116,
+              24.752055
+            ],
+            [
+              69.12871,
+              6.964223
+            ],
+            [
+              89.56401,
+              9.794392
+            ],
+            [
+              86.567157,
+              28.009005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4290000735-LAADS",
+        "productId": "MOD021KM.A2026239.1520.061.2026240013403.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T15:20:00Z",
+        "acquiredAtNepal": "2026-08-27T21:05:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.566891,
+              28.009296
+            ],
+            [
+              64.058883,
+              24.752324
+            ],
+            [
+              69.128503,
+              6.964495
+            ],
+            [
+              89.563779,
+              9.794681
+            ],
+            [
+              86.566891,
+              28.009296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289656587-LANCEMODIS",
+        "productId": "MOD021KM.A2026239.1520.061.2026239155942.NRT.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T15:20:00Z",
+        "acquiredAtNepal": "2026-08-27T21:05:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.566715,
+              28.010238
+            ],
+            [
+              64.058593,
+              24.753235
+            ],
+            [
+              69.128503,
+              6.964493
+            ],
+            [
+              89.563779,
+              9.794679
+            ],
+            [
+              86.566715,
+              28.010238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289858693-LAADS",
+        "productId": "MOD021KM.A2026239.1525.007.2026239214411.nc",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T15:25:00Z",
+        "acquiredAtNepal": "2026-08-27T21:10:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.53258,
+              46.126297
+            ],
+            [
+              56.348329,
+              41.959608
+            ],
+            [
+              64.152206,
+              24.677035
+            ],
+            [
+              86.88649,
+              27.808124
+            ],
+            [
+              84.53258,
+              46.126297
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4290000736-LAADS",
+        "productId": "MOD021KM.A2026239.1525.061.2026240013406.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T15:25:00Z",
+        "acquiredAtNepal": "2026-08-27T21:10:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.532326,
+              46.126591
+            ],
+            [
+              56.347999,
+              41.95985
+            ],
+            [
+              64.15196,
+              24.677284
+            ],
+            [
+              86.886299,
+              27.808424
+            ],
+            [
+              84.532326,
+              46.126591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nasa-cmr-G4289656584-LANCEMODIS",
+        "productId": "MOD021KM.A2026239.1525.061.2026239155941.NRT.hdf",
+        "platform": "Terra",
+        "mission": "MODIS",
+        "sensor": "MOD021KM",
+        "dataType": "optical",
+        "acquiredAtUtc": "2026-08-27T15:25:00Z",
+        "acquiredAtNepal": "2026-08-27T21:10:00+05:45",
+        "resolutionMeters": 1000,
+        "cloudCoverPercent": null,
+        "source": "NASA CMR",
+        "license": "open",
+        "displayMode": "metadata-only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.532344,
+              46.126506
+            ],
+            [
+              56.348043,
+              41.959771
+            ],
+            [
+              64.15196,
+              24.677283
+            ],
+            [
+              86.886302,
+              27.808422
+            ],
+            [
+              84.532344,
+              46.126506
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
