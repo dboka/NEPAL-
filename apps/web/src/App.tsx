@@ -46,6 +46,7 @@ const osmStyle: maplibregl.StyleSpecification = {
 }
 
 const speedMs: Record<Speed, number> = { slow: 2600, normal: 1500, fast: 750 }
+const dataUrl = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
 
 function formatUtc(value?: string) {
   if (!value) return 'Unknown'
@@ -221,9 +222,9 @@ export default function App() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/data/scenes.json').then((r) => r.json()),
-      fetch('/data/aoi.geojson').then((r) => r.json()),
-      fetch('/data/source-audit.json').then((r) => r.json()),
+      fetch(dataUrl('data/scenes.json')).then((r) => r.json()),
+      fetch(dataUrl('data/aoi.geojson')).then((r) => r.json()),
+      fetch(dataUrl('data/source-audit.json')).then((r) => r.json()),
     ]).then(([sceneData, aoiData, auditData]) => {
       setScenes(sceneData)
       setAoi(aoiData)
