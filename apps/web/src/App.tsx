@@ -19,6 +19,7 @@ type Scene = {
   resolutionMeters: number | null
   cloudCoverPercent: number | null
   footprint: Geometry | null
+  bbox?: [number, number, number, number] | null
   source: string
   sourceUrl: string
   stacItemUrl?: string
@@ -85,8 +86,28 @@ function cloudBucket(scene: Scene) {
   return '80-100%'
 }
 
+function toPublicUrl(value?: string) {
+  if (!value) return null
+  if (value.startsWith('s3://')) {
+    const [, rest] = value.split('s3://')
+    const slash = rest.indexOf('/')
+    if (slash < 0) return null
+    if (!rest.startsWith('sentinel-cogs/')) return null
+    return `https://${rest.slice(0, slash)}.s3.amazonaws.com/${rest.slice(slash + 1)}`
+  }
+  if (value.startsWith('http')) return value
+  return null
+}
+
+function previewAsset(scene: Scene) {
+  const preferred = toPublicUrl(scene.assets.thumbnail) || toPublicUrl(scene.assets.visual)
+  if (!preferred) return null
+  if (/\.(jpe?g|png|webp)(\?|$)/i.test(preferred)) return preferred
+  return null
+}
+
 function rasterAsset(scene: Scene) {
-  const preferred = scene.assets.visual || scene.assets.red || scene.assets.vv
+  const preferred = toPublicUrl(scene.assets.visual) || toPublicUrl(scene.assets.red) || toPublicUrl(scene.assets.vv)
   if (!preferred || !preferred.startsWith('http')) return null
   if (!/\.(tif|tiff)(\?|$)/i.test(preferred)) return null
   return preferred
@@ -96,6 +117,28 @@ function tileUrl(scene: Scene) {
   const asset = rasterAsset(scene)
   if (!asset || scene.displayMode !== 'full') return null
   return `https://titiler.xyz/cog/tiles/{z}/{x}/{y}.png?url=${encodeURIComponent(asset)}`
+}
+
+function imageCoordinates(scene: Scene): [[number, number], [number, number], [number, number], [number, number]] | null {
+  let bbox = scene.bbox
+  if (!bbox && scene.footprint) {
+    const fc: FeatureCollection = { type: 'FeatureCollection', features: [{ type: 'Feature', properties: {}, geometry: scene.footprint }] }
+    const bounds = boundsFromGeojson(fc) as maplibregl.LngLatBounds
+    bbox = [bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()]
+  }
+  if (!bbox || bbox.length !== 4) return null
+  const [west, south, east, north] = bbox
+  return [[west, north], [east, north], [east, south], [west, south]]
+}
+
+function hasImageLayer(scene: Scene) {
+  return Boolean(previewAsset(scene) || tileUrl(scene))
+}
+
+function imageSortValue(scene: Scene) {
+  const cloud = scene.cloudCoverPercent ?? 999
+  const resolution = scene.resolutionMeters ?? 999
+  return cloud * 1000 + resolution
 }
 
 function boundsFromGeojson(fc: FeatureCollection): maplibregl.LngLatBoundsLike {
@@ -181,11 +224,32 @@ function addCoreLayers(map: MlMap, aoi: FeatureCollection, scenes: Scene[], acti
   }
 }
 
-function setRaster(map: MlMap, scene: Scene | undefined, opacity: number, prefix = 'active') {
+function setImagery(map: MlMap, scene: Scene | undefined, opacity: number, prefix = 'active') {
+  const imageSourceId = `${prefix}-preview`
+  const imageLayerId = `${prefix}-preview-layer`
   const sourceId = `${prefix}-raster`
   const layerId = `${prefix}-raster-layer`
+  if (map.getLayer(imageLayerId)) map.removeLayer(imageLayerId)
+  if (map.getSource(imageSourceId)) map.removeSource(imageSourceId)
   if (map.getLayer(layerId)) map.removeLayer(layerId)
   if (map.getSource(sourceId)) map.removeSource(sourceId)
+
+  const preview = scene ? previewAsset(scene) : null
+  const coordinates = scene ? imageCoordinates(scene) : null
+  if (preview && coordinates) {
+    map.addSource(imageSourceId, { type: 'image', url: preview, coordinates })
+    map.addLayer(
+      {
+        id: imageLayerId,
+        type: 'raster',
+        source: imageSourceId,
+        paint: { 'raster-opacity': Math.min(0.92, opacity / 100), 'raster-fade-duration': 120 },
+      },
+      'footprint-fill',
+    )
+    return
+  }
+
   const tiles = scene ? tileUrl(scene) : null
   if (!tiles) return
   map.addSource(sourceId, { type: 'raster', tiles: [tiles], tileSize: 256, attribution: scene?.source ?? '' })
@@ -212,7 +276,7 @@ export default function App() {
   const [filterType, setFilterType] = useState<FilterType>('all')
   const [mission, setMission] = useState('All')
   const [cloud, setCloud] = useState('All')
-  const [opacity, setOpacity] = useState(78)
+  const [opacity, setOpacity] = useState(58)
   const [playing, setPlaying] = useState(false)
   const [speed, setSpeed] = useState<Speed>('normal')
   const [compare, setCompare] = useState(false)
@@ -226,16 +290,23 @@ export default function App() {
       fetch(dataUrl('data/aoi.geojson')).then((r) => r.json()),
       fetch(dataUrl('data/source-audit.json')).then((r) => r.json()),
     ]).then(([sceneData, aoiData, auditData]) => {
+      const imageScenes = [...sceneData]
+        .filter((scene: Scene) => scene.source === 'Element84 Earth Search' && previewAsset(scene))
+        .sort((a: Scene, b: Scene) => imageSortValue(a) - imageSortValue(b))
+      const firstImageScene =
+        imageScenes[0] ??
+        sceneData.find((scene: Scene) => hasImageLayer(scene))
       setScenes(sceneData)
       setAoi(aoiData)
       setAuditCount(auditData.length)
-      setActiveId(sceneData[0]?.id ?? '')
-      setRightId(sceneData.find((scene: Scene) => scene.id !== sceneData[0]?.id)?.id ?? '')
+      setActiveId(firstImageScene?.id ?? sceneData[0]?.id ?? '')
+      setRightId(sceneData.find((scene: Scene) => scene.id !== (firstImageScene?.id ?? sceneData[0]?.id))?.id ?? '')
     })
   }, [])
 
   const activeScene = scenes.find((scene) => scene.id === activeId)
   const rightScene = scenes.find((scene) => scene.id === rightId)
+  const activePreview = activeScene ? previewAsset(activeScene) : null
   const filtered = useMemo(() => {
     return scenes.filter((scene) => {
       if (filterType !== 'all' && scene.dataType !== filterType) return false
@@ -246,7 +317,7 @@ export default function App() {
   }, [scenes, filterType, mission, cloud])
   const missions = useMemo(() => ['All', ...Array.from(new Set(scenes.map(missionKey)))], [scenes])
   const openScenes = scenes.filter((scene) => scene.license === 'open').length
-  const rasterReady = scenes.filter((scene) => tileUrl(scene)).length
+  const imageReady = scenes.filter((scene) => hasImageLayer(scene)).length
 
   useEffect(() => {
     if (!mapEl.current || !aoi || mapRef.current) return
@@ -270,7 +341,7 @@ export default function App() {
     const map = mapRef.current
     if (!map || !aoi || !mapLoaded || !map.isStyleLoaded()) return
     addCoreLayers(map, aoi, scenes, activeId)
-    setRaster(map, activeScene, opacity)
+    setImagery(map, activeScene, opacity)
   }, [aoi, scenes, activeId, activeScene, opacity, mapLoaded])
 
   useEffect(() => {
@@ -288,7 +359,7 @@ export default function App() {
     })
     right.on('load', () => {
       addCoreLayers(right, aoi, scenes, rightId)
-      setRaster(right, rightScene, opacity, 'right')
+      setImagery(right, rightScene, opacity, 'right')
     })
     rightMapRef.current = right
     return () => {
@@ -314,7 +385,7 @@ export default function App() {
     const right = rightMapRef.current
     if (!right || !aoi || !right.isStyleLoaded()) return
     addCoreLayers(right, aoi, scenes, rightId)
-    setRaster(right, rightScene, opacity, 'right')
+    setImagery(right, rightScene, opacity, 'right')
   }, [aoi, scenes, rightId, rightScene, opacity])
 
   useEffect(() => {
@@ -339,7 +410,7 @@ export default function App() {
           <div className="status-strip">
             <span><Satellite size={16} /> {scenes.length} scenes</span>
             <span><Eye size={16} /> {openScenes} open</span>
-            <span><Layers size={16} /> {rasterReady} streamable</span>
+            <span><Layers size={16} /> {imageReady} image layers</span>
           </div>
         </div>
 
@@ -402,6 +473,11 @@ export default function App() {
             {activeScene?.dataType === 'sar' ? 'SAR radar imagery' : 'Optical or browse imagery'}
           </div>
           <h2>{activeScene?.platform ?? 'Loading scenes'}</h2>
+          {activePreview && (
+            <a className="satellite-preview" href={activePreview} target="_blank" rel="noreferrer">
+              <img alt={`${activeScene?.platform ?? 'Satellite'} preview`} src={activePreview} />
+            </a>
+          )}
           <dl>
             <div><dt>UTC</dt><dd>{formatUtc(activeScene?.acquiredAtUtc)}</dd></div>
             <div><dt>Nepal</dt><dd>{formatNpt(activeScene?.acquiredAtNepal)}</dd></div>
@@ -412,7 +488,7 @@ export default function App() {
             <div><dt>License</dt><dd>{activeScene?.license ?? 'Unknown'}</dd></div>
           </dl>
           {activeScene?.qualityFlags.includes('VERY_CLOUDY') && <p className="warning">Cloud cover may obscure the valley.</p>}
-          {activeScene?.displayMode === 'metadata-only' && <p className="warning">Metadata only. Restricted or non-tiled raster is not displayed.</p>}
+          {activeScene && !hasImageLayer(activeScene) && <p className="warning">Metadata only. Pick a Sentinel-2 or Landsat scene to view an image layer.</p>}
           {activeScene?.stacItemUrl && (
             <a className="meta-link" href={activeScene.stacItemUrl} target="_blank" rel="noreferrer">
               <ExternalLink size={15} /> Original metadata
