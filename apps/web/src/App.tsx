@@ -119,20 +119,8 @@ function tileUrl(scene: Scene) {
   return `https://titiler.xyz/cog/tiles/{z}/{x}/{y}.png?url=${encodeURIComponent(asset)}`
 }
 
-function imageCoordinates(scene: Scene): [[number, number], [number, number], [number, number], [number, number]] | null {
-  let bbox = scene.bbox
-  if (!bbox && scene.footprint) {
-    const fc: FeatureCollection = { type: 'FeatureCollection', features: [{ type: 'Feature', properties: {}, geometry: scene.footprint }] }
-    const bounds = boundsFromGeojson(fc) as maplibregl.LngLatBounds
-    bbox = [bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()]
-  }
-  if (!bbox || bbox.length !== 4) return null
-  const [west, south, east, north] = bbox
-  return [[west, north], [east, north], [east, south], [west, south]]
-}
-
 function hasImageLayer(scene: Scene) {
-  return Boolean(previewAsset(scene) || tileUrl(scene))
+  return Boolean(previewAsset(scene))
 }
 
 function imageSortValue(scene: Scene) {
@@ -234,21 +222,7 @@ function setImagery(map: MlMap, scene: Scene | undefined, opacity: number, prefi
   if (map.getLayer(layerId)) map.removeLayer(layerId)
   if (map.getSource(sourceId)) map.removeSource(sourceId)
 
-  const preview = scene ? previewAsset(scene) : null
-  const coordinates = scene ? imageCoordinates(scene) : null
-  if (preview && coordinates) {
-    map.addSource(imageSourceId, { type: 'image', url: preview, coordinates })
-    map.addLayer(
-      {
-        id: imageLayerId,
-        type: 'raster',
-        source: imageSourceId,
-        paint: { 'raster-opacity': Math.min(0.92, opacity / 100), 'raster-fade-duration': 120 },
-      },
-      'footprint-fill',
-    )
-    return
-  }
+  if (scene && previewAsset(scene)) return
 
   const tiles = scene ? tileUrl(scene) : null
   if (!tiles) return
@@ -334,7 +308,11 @@ export default function App() {
       map.fitBounds(boundsFromGeojson(aoi), { padding: 42, duration: 0 })
     })
     mapRef.current = map
-    return () => map.remove()
+    return () => {
+      map.remove()
+      mapRef.current = null
+      setMapLoaded(false)
+    }
   }, [aoi])
 
   useEffect(() => {
@@ -416,6 +394,12 @@ export default function App() {
 
         <div className="map-wrap">
           <div className="map" ref={mapEl} />
+          {activePreview && (
+            <a className="map-preview" href={activePreview} target="_blank" rel="noreferrer">
+              <img alt={`${activeScene?.platform ?? 'Satellite'} preview`} src={activePreview} />
+              <span>{activeScene?.platform} preview</span>
+            </a>
+          )}
           {compare && (
             <div className="right-map-clip" style={{ clipPath: `inset(0 0 0 ${swipe}%)` }}>
               <div className="map compare-map" ref={rightMapEl} />
