@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EMSR927 Nepal river valley focus area"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.351228, 27.675376],
+          [85.380579, 27.675376],
+          [85.380579, 28.279944],
+          [84.351228, 28.279944],
+          [84.351228, 27.675376]
+        ]]
+      }
+    }
+  ]
+}

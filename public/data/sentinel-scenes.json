@@ -1,0 +1,112 @@
+[
+  {
+    "id": "S2B_45RUM_20260824_0_L2A",
+    "phase": "before",
+    "title": "Before flood - Sentinel-2B 45RUM",
+    "datetimeUtc": "2026-08-24T05:00:49Z",
+    "datetimeNepal": "2026-08-24T10:45:49+05:45",
+    "cloud": 38.568816,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2B_45RUM_20260824_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2B_45RUM_20260824_0_L2A/preview.jpg",
+    "bounds": [84.9659236437433, 27.9194401975459, 86.110618421341, 28.9218046457602]
+  },
+  {
+    "id": "S2A_45RUM_20260824_1_L2A",
+    "phase": "before",
+    "title": "Before flood - Sentinel-2A 45RUM",
+    "datetimeUtc": "2026-08-24T05:11:03Z",
+    "datetimeNepal": "2026-08-24T10:56:03+05:45",
+    "cloud": 50.966662,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2A_45RUM_20260824_1_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2A_45RUM_20260824_1_L2A/preview.jpg",
+    "bounds": [84.9659203883634, 27.9194396013654, 86.1106151669714, 28.9218042171755]
+  },
+  {
+    "id": "S2A_45RTM_20260824_0_L2A",
+    "phase": "before",
+    "title": "Before flood - Sentinel-2A 45RTM",
+    "datetimeUtc": "2026-08-24T05:11:07Z",
+    "datetimeNepal": "2026-08-24T10:56:07+05:45",
+    "cloud": 73.723817,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TM/2026/8/S2A_45RTM_20260824_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TM/2026/8/S2A_45RTM_20260824_0_L2A/preview.jpg",
+    "bounds": [84.9476925278456, 27.0197317806297, 86.0822209818768, 28.0223707289752]
+  },
+  {
+    "id": "S2B_45RUL_20260824_0_L2A",
+    "phase": "before",
+    "title": "Before flood - Sentinel-2B 45RUL",
+    "datetimeUtc": "2026-08-24T05:01:04Z",
+    "datetimeNepal": "2026-08-24T10:46:04+05:45",
+    "cloud": 75.374717,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UL/2026/8/S2B_45RUL_20260824_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UL/2026/8/S2B_45RUL_20260824_0_L2A/preview.jpg",
+    "bounds": [84.9659236437433, 27.0197355852277, 86.0906361909199, 28.0223721922187]
+  },
+  {
+    "id": "S2A_45RTL_20260824_0_L2A",
+    "phase": "before",
+    "title": "Before flood - Sentinel-2A 45RTL",
+    "datetimeUtc": "2026-08-24T05:11:22Z",
+    "datetimeNepal": "2026-08-24T10:56:22+05:45",
+    "cloud": 77.188253,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TL/2026/8/S2A_45RTL_20260824_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TL/2026/8/S2A_45RTL_20260824_0_L2A/preview.jpg",
+    "bounds": [84.9476925278456, 26.1203507551242, 86.0610671824197, 27.1227995461637]
+  },
+  {
+    "id": "S2A_45RUL_20260824_1_L2A",
+    "phase": "before",
+    "title": "Before flood - Sentinel-2A 45RUL",
+    "datetimeUtc": "2026-08-24T05:11:18Z",
+    "datetimeNepal": "2026-08-24T10:56:18+05:45",
+    "cloud": 79.761755,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UL/2026/8/S2A_45RUL_20260824_1_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UL/2026/8/S2A_45RUL_20260824_1_L2A/preview.jpg",
+    "bounds": [84.9659203883634, 27.0197349893848, 86.0906334410487, 28.0223717657925]
+  },
+  {
+    "id": "S2B_45RUL_20260827_0_L2A",
+    "phase": "after",
+    "title": "After flood - Sentinel-2B 45RUL",
+    "datetimeUtc": "2026-08-27T05:11:00Z",
+    "datetimeNepal": "2026-08-27T10:56:00+05:45",
+    "cloud": 54.286689,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UL/2026/8/S2B_45RUL_20260827_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UL/2026/8/S2B_45RUL_20260827_0_L2A/preview.jpg",
+    "bounds": [84.9659236437433, 27.0197355852277, 86.0906361909199, 28.0223721922187]
+  },
+  {
+    "id": "S2B_45RUM_20260827_0_L2A",
+    "phase": "after",
+    "title": "After flood - Sentinel-2B 45RUM",
+    "datetimeUtc": "2026-08-27T05:10:45Z",
+    "datetimeNepal": "2026-08-27T10:55:45+05:45",
+    "cloud": 78.471315,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2B_45RUM_20260827_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2B_45RUM_20260827_0_L2A/preview.jpg",
+    "bounds": [84.9659236437433, 27.9194401975459, 86.110618421341, 28.9218046457602]
+  },
+  {
+    "id": "S2B_45RTL_20260827_0_L2A",
+    "phase": "after",
+    "title": "After flood - Sentinel-2B 45RTL",
+    "datetimeUtc": "2026-08-27T05:11:04Z",
+    "datetimeNepal": "2026-08-27T10:56:04+05:45",
+    "cloud": 84.982914,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TL/2026/8/S2B_45RTL_20260827_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TL/2026/8/S2B_45RTL_20260827_0_L2A/preview.jpg",
+    "bounds": [84.9476962140962, 26.1203511569519, 86.061069929359, 27.1228012286131]
+  },
+  {
+    "id": "S2B_45RTM_20260827_0_L2A",
+    "phase": "after",
+    "title": "After flood - Sentinel-2B 45RTM",
+    "datetimeUtc": "2026-08-27T05:10:50Z",
+    "datetimeNepal": "2026-08-27T10:55:50+05:45",
+    "cloud": 85.923547,
+    "cog": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TM/2026/8/S2B_45RTM_20260827_0_L2A/TCI.tif",
+    "preview": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/TM/2026/8/S2B_45RTM_20260827_0_L2A/preview.jpg",
+    "bounds": [84.9476962140962, 27.019732170741, 86.0822241875274, 28.0223724128643]
+  }
+]

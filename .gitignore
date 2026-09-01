@@ -1,10 +1,4 @@
+node_modules
+dist
 .env
-node_modules/
-dist/
-apps/web/node_modules/
-apps/web/dist/
-apps/web/.git-chatgpt-sites-old/
-apps/web/.openai/
-*.tar.gz
-*.pyc
-__pycache__/
+*.tsbuildinfo
